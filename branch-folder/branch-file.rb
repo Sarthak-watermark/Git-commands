@@ -6,6 +6,12 @@ def calculate(a, b, operator)
     a - b
   when '*'
     a * b
+  when '**'
+    a ** b
+  when '%'
+    a % b
+  when '//'
+    a // b
   when '/'
     if b == 0
       "Cannot divide by zero"
